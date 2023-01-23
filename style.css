@@ -148,6 +148,47 @@ footer p {
     color: var(--gray);
 }
 
-@media (max-width:425px){
-    
+@media (max-width:425px) {
+    body main {
+        width: 80%;
+    }
+
+    body main h1 {
+        font-size: 23px;
+        padding: 2rem 0 1.5rem;
+    }
+
+    body main img {
+        height: 20px;
+        margin-top: 3rem;
+    }
+
+    body main .form {
+        flex-direction: column;
+    }
+
+    body main .form .input,
+    body main .form button {
+        width: 100%;
+    }
+
+    body main .form .input p {
+        text-align: center;
+        padding-bottom: 2rem;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    body main .form button {
+        margin: 0;
+    }
+
+    body main .illustration {
+        height: 230px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 20px;
+    }
 }
